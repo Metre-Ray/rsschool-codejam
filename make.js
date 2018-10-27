@@ -11,3 +11,5 @@ function make(...args) {
         return temp;
     }
 }
+
+module.exports = make;

@@ -7,3 +7,5 @@ function recursion(tree, ans = [], i = 0) {
     recursion(tree.right, ans, i);
     return ans;
 }
+
+module.exports = recursion;
