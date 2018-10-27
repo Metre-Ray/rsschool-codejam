@@ -1,0 +1,26 @@
+{
+  "name": "rsschool-codejam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "\u001b[D\u001b[D\u001b[DsumOfOther.js)",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Metre-Ray/rsschool-codejam.git"
+  },
+  "author": "Diana Loiko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Metre-Ray/rsschool-codejam/issues"
+  },
+  "homepage": "https://github.com/Metre-Ray/rsschool-codejam#readme",
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {}
+}
