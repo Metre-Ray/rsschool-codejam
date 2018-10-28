@@ -1,10 +1,10 @@
 function recursion(tree, ans = [], i = 0) {
-    if (tree === undefined) return ;
+    const k = i + 1;
+    if (tree === undefined) return undefined;
     if (ans[i] === undefined) ans.push([]);
     ans[i].push(tree.value);
-    i +=1 ;
-    recursion(tree.left, ans, i);
-    recursion(tree.right, ans, i);
+    recursion(tree.left, ans, k);
+    recursion(tree.right, ans, k);
     return ans;
 }
 
